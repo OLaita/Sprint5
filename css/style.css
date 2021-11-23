@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=Nunito:wght@300&family=Permanent+Marker&display=swap');
+
+svg{
+    height: 90%;
+    margin: auto;
+    position: absolute;
+    z-index: -1;
+}
+
+#c{
+    width: 99vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+}
+
+#l{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 89vh;
+    flex-direction: column;
+}
+
+#chiste{
+    max-width: 60%;
+    text-align: center;
+}
+
+#tiempo{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    margin-top: 20px;
+}
+
+#sep{
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+#temp{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 30px;
+}
